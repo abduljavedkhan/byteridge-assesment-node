@@ -1,6 +1,6 @@
 const str = {
-  "connectionString": "mongodb+srv://interview:welcome2byteridge@byteridge-hdrl6.mongodb.net/interview",
-  "secret": "JBJYBJ23jkj232kALKMLAK"
+  "connectionString": process.env.DBURL,
+  "secret": process.env.SECRET
 }
 
 module.exports = str;
